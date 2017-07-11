@@ -26,14 +26,14 @@ var nodes = [{ "node": 1, "message": "Do you like working with people", "yes": 2
              { "node": 7, "message": "Are you active", "yes": 14, "no": 15 },
 
 // Answers & descriptions
-             { "node": 8, "message": "Doctor", "yes": 0, "no": 0, "description": "A physician or medical doctor is a professional who practices medicine." },
-             { "node": 9, "message": "Teacher", "yes": 0, "no": 0, "description": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors."},
-             { "node": 10, "message": "Sales person", "yes": 0, "no": 0 , "description": "A salesman is someone who works in sales, with the main function of selling products or services to others."},
-             { "node": 11, "message": "Artist", "yes": 0, "no": 0 , "description": "An artist is a person engaged in one or more of any of a broad spectrum of activities related to creating art, practicing the arts, and, or demonstrating an art."},
-             { "node": 12, "message": "Zookeeper", "yes": 0, "no": 0 , "description": "A zookeeper is a person who manages zoo animals that are kept in captivity for conservation or to be displayed to the public, and are usually responsible for the feeding and daily care of the animals."},
-             { "node": 13, "message": "Software engineer", "yes": 0, "no": 0 , "description": "A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of the software and systems that make computers or anything containing software work."},
-             { "node": 14, "message": "Security Guard", "yes": 0, "no": 0 , "description": "A security guard is a private person who is paid to protect an organization's assets from various hazards such as criminal activity, by utilizing preventative measures. "},
-             { "node": 15, "message": "Lighthouse keeper", "yes": 0, "no": 0 , "description": "A lighthouse keeper is the person responsible for tending and caring for a lighthouse, particularly the light and lens in the days when oil lamps and clockwork mechanisms were used."},
+             { "node": 8, "message": "Physician", "yes": 0, "no": 0, "description": "A physician or medical doctor is a professional who practices medicine." },
+             { "node": 9, "message": "Professor", "yes": 0, "no": 0, "description": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors."},
+             { "node": 10, "message": "Account exec", "yes": 0, "no": 0 , "description": "A sales rep is someone who works in sales, with the main function of selling products or services to others."},
+             { "node": 11, "message": "Creative", "yes": 0, "no": 0 , "description": "An artist is a person engaged in one or more of any of a broad spectrum of activities related to creating art, practicing the arts, and, or demonstrating an art."},
+             { "node": 12, "message": "Animal Manager", "yes": 0, "no": 0 , "description": "A zookeeper is a person who manages zoo animals that are kept in captivity for conservation or to be displayed to the public, and are usually responsible for the feeding and daily care of the animals."},
+             { "node": 13, "message": "Code monkey", "yes": 0, "no": 0 , "description": "A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of the software and systems that make computers or anything containing software work."},
+             { "node": 14, "message": "Guardian", "yes": 0, "no": 0 , "description": "A security guard is a private person who is paid to protect an organization's assets from various hazards such as criminal activity, by utilizing preventative measures. "},
+             { "node": 15, "message": "Lit lighter", "yes": 0, "no": 0 , "description": "A lighthouse keeper is the person responsible for tending and caring for a lighthouse, particularly the light and lens in the days when oil lamps and clockwork mechanisms were used."},
 ];
 
 // this is used for keep track of visted nodes when we test for loops in the tree
@@ -42,19 +42,19 @@ var visited;
 // These are messages that Alexa says to the user during conversation
 
 // This is the intial welcome message
-var welcomeMessage = "Welcome to decision tree, are you ready to play?";
+var welcomeMessage = "Welcome to Sam's decision tree, are you ready to be amazed?";
 
 // This is the message that is repeated if the response to the initial welcome message is not heard
-var repeatWelcomeMessage = "Say yes to start the game or no to quit.";
+var repeatWelcomeMessage = "Say yes to start playing now or no if you do not want to.";
 
 // this is the message that is repeated if Alexa does not hear/understand the reponse to the welcome message
-var promptToStartMessage = "Say yes to continue, or no to end the game.";
+var promptToStartMessage = "Say yes to continue, or no to stop.";
 
 // This is the prompt during the game when Alexa doesnt hear or understand a yes / no reply
-var promptToSayYesNo = "Say yes or no to answer the question.";
+var promptToSayYesNo = "Please, say yes or no to answer the question.";
 
 // This is the response to the user after the final question when Alex decides on what group choice the user should be given
-var decisionMessage = "I think you would make a good";
+var decisionMessage = "Let's see. You would definitely make a wonderful";
 
 // This is the prompt to ask the user if they would like to hear a short description of thier chosen profession or to play again
 var playAgainMessage = "Say 'tell me more' to hear a short description for this profession, or do you want to play again?";

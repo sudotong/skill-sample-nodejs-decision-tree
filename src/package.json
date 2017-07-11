@@ -1,12 +1,12 @@
 {
-  "name": "DecisionTree",
+  "name": "SamDecisionTree",
   "version": "1.0.0",
-  "description": "Alexa Decision Tree template",
+  "description": "Sam Decision Tree",
   "main": "index.js",
   "dependencies": {
     "alexa-sdk": "^1.0.0"
   },
   "devDependencies": {},
-  "author": "Amazon.com",
+  "author": "Sam",
   "license": "SEE LICENSE IN license.md"
 }
